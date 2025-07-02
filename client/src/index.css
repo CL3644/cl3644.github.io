@@ -4,36 +4,36 @@
 
 :root {
   --background: hsl(0, 0%, 100%);
-  --foreground: hsl(225, 18%, 15%);
-  --muted: hsl(210, 40%, 98%);
-  --muted-foreground: hsl(215, 16%, 47%);
+  --foreground: hsl(0, 0%, 20%);
+  --muted: hsl(0, 0%, 97%);
+  --muted-foreground: hsl(0, 0%, 60%);
   --popover: hsl(0, 0%, 100%);
-  --popover-foreground: hsl(225, 18%, 15%);
+  --popover-foreground: hsl(0, 0%, 20%);
   --card: hsl(0, 0%, 100%);
-  --card-foreground: hsl(225, 18%, 15%);
-  --border: hsl(214, 32%, 94%);
-  --input: hsl(214, 32%, 94%);
-  --primary: hsl(262, 83%, 58%);
+  --card-foreground: hsl(0, 0%, 20%);
+  --border: hsl(0, 0%, 90%);
+  --input: hsl(0, 0%, 90%);
+  --primary: hsl(0, 0%, 20%);
   --primary-foreground: hsl(0, 0%, 100%);
-  --secondary: hsl(210, 40%, 98%);
-  --secondary-foreground: hsl(222, 84%, 5%);
-  --accent: hsl(262, 50%, 95%);
-  --accent-foreground: hsl(262, 83%, 58%);
-  --destructive: hsl(0, 84%, 60%);
-  --destructive-foreground: hsl(210, 40%, 98%);
-  --ring: hsl(262, 83%, 58%);
-  --radius: 1rem;
+  --secondary: hsl(0, 0%, 95%);
+  --secondary-foreground: hsl(0, 0%, 20%);
+  --accent: hsl(0, 0%, 95%);
+  --accent-foreground: hsl(0, 0%, 20%);
+  --destructive: hsl(0, 70%, 50%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --ring: hsl(0, 0%, 20%);
+  --radius: 0.25rem;
   
-  /* Modern gradient colors */
-  --gradient-start: hsl(262, 83%, 58%);
-  --gradient-end: hsl(295, 76%, 65%);
-  --accent-purple: hsl(262, 83%, 58%);
-  --accent-pink: hsl(295, 76%, 65%);
-  --accent-blue: hsl(221, 83%, 53%);
-  --surface-elevated: hsl(0, 0%, 99%);
-  --text-primary: hsl(225, 18%, 15%);
-  --text-secondary: hsl(215, 16%, 47%);
-  --text-tertiary: hsl(215, 16%, 65%);
+  /* Minimalist neutral colors */
+  --neutral-100: hsl(0, 0%, 97%);
+  --neutral-200: hsl(0, 0%, 90%);
+  --neutral-300: hsl(0, 0%, 80%);
+  --neutral-400: hsl(0, 0%, 60%);
+  --neutral-500: hsl(0, 0%, 45%);
+  --neutral-600: hsl(0, 0%, 30%);
+  --neutral-700: hsl(0, 0%, 20%);
+  --neutral-800: hsl(0, 0%, 15%);
+  --neutral-900: hsl(0, 0%, 10%);
 }
 
 .dark {
@@ -64,56 +64,39 @@
   }
 
   body {
-    @apply font-sans antialiased bg-background text-foreground;
-    font-family: 'Inter', sans-serif;
+    @apply antialiased bg-background text-foreground;
+    font-family: 'Times', 'Times New Roman', serif;
   }
 }
 
 @layer utilities {
-  .gradient-primary {
-    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  .simple-card {
+    border: 1px solid var(--border);
+    transition: border-color 0.2s ease;
   }
   
-  .gradient-text {
-    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+  .simple-card:hover {
+    border-color: var(--neutral-300);
   }
   
-  .text-shadow {
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  .text-subtle {
+    color: var(--neutral-500);
   }
   
-  .glass-effect {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+  .minimal-button {
+    border: 1px solid var(--neutral-700);
+    background: transparent;
+    color: var(--neutral-700);
+    transition: all 0.2s ease;
   }
   
-  .floating-card {
-    transform: translateY(0);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  .minimal-button:hover {
+    background: var(--neutral-700);
+    color: var(--background);
   }
   
-  .floating-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-  
-  .animate-fade-in {
-    animation: fadeIn 0.8s ease-out forwards;
-  }
-  
-  .animate-slide-up {
-    animation: slideUp 0.8s ease-out forwards;
-  }
-  
-  .hero-pattern {
-    background-image: 
-      radial-gradient(circle at 20% 80%, rgba(262, 83%, 58%, 0.15) 0%, transparent 50%),
-      radial-gradient(circle at 80% 20%, rgba(295, 76%, 65%, 0.15) 0%, transparent 50%),
-      radial-gradient(circle at 40% 40%, rgba(221, 83%, 53%, 0.1) 0%, transparent 50%);
+  .serif {
+    font-family: 'Times', 'Times New Roman', serif;
   }
 }
 

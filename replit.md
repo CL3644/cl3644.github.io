@@ -90,9 +90,19 @@ This is a full-stack portfolio application for Calvin Lu, an AI-empowered Produc
   - Added sophisticated animations (floating cards, gradient text, glass effects)
   - Updated contact information and professional experience
   - Enhanced typography and spacing for modern portfolio aesthetic
+- January 02, 2025. Minimalist redesign
+  - Switched from Inter to Times/serif fonts for more classic typography
+  - Replaced colorful gradients with neutral color palette (grays, blacks, whites)
+  - Simplified all pages to focus on essential content only
+  - Removed complex animations, floating cards, and visual effects
+  - Streamlined navigation and component design
+  - Updated landing page to single hero section with minimal contact info
+  - Simplified About page to clean experience timeline
+  - Reduced Schedule page to essential scheduling functionality
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
-Design preference: Sophisticated, designer/animator-inspired portfolio design
+Design preference: Minimalist design with serif fonts and neutral tones
 Content: Real resume information for Calvin Lu (Columbia CS/Math graduate, 4 YOE PM)
+Approach: Less is more - restrained components, sections, and copy
