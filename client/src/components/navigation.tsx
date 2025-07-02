@@ -19,7 +19,7 @@ export default function Navigation() {
                 <span className="text-2xl font-bold gradient-text">Calvin Lu</span>
                 <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-600 to-pink-600 group-hover:w-full transition-all duration-300"></div>
               </div>
-              <span className="ml-3 text-sm text-gray-600 font-medium">Product Manager</span>
+              {/* <span className="ml-3 text-sm text-gray-600 font-medium">Product Manager</span> */}
             </Link>
           </div>
           <div className="hidden md:flex space-x-10">

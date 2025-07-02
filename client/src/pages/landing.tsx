@@ -7,27 +7,31 @@ export default function Landing() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center hero-pattern">
         <div className="absolute inset-0 bg-gradient-to-br from-white/90 via-white/95 to-white/90"></div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="animate-fade-in">
-              <div className="inline-flex items-center px-4 py-2 rounded-full bg-purple-100 text-purple-700 font-medium text-sm mb-8">
+              {/* <div className="inline-flex items-center px-4 py-2 rounded-full bg-purple-100 text-purple-700 font-medium text-sm mb-8">
                 <Brain className="h-4 w-4 mr-2" />
                 AI-Empowered Product Manager
-              </div>
+              </div> */}
               <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8">
-                <span className="text-gray-900">Calvin</span>{" "}
-                <span className="gradient-text">Lu</span>
+                <span className="text-gray-900">Calvin Lu</span>{" "}
+                {/* <span className="gradient-text">Calvin Lu</span> */}
               </h1>
+              <p className="text-xl md:text-2xl text-gray-600 mb-2 leading-relaxed font-light">
+                <span className="font-semibold text-purple-600">4 YOE</span>{" "}
+                in Product.{" "}
+              </p>
               <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed font-light">
                 Triple-threat background in{" "}
                 <span className="font-semibold text-purple-600">Data Science</span>,{" "}
                 <span className="font-semibold text-purple-600">Engineering</span>, and{" "}
                 <span className="font-semibold text-purple-600">Design</span>.
               </p>
-              <p className="text-lg text-gray-500 mb-12 leading-relaxed">
+              {/* <p className="text-lg text-gray-500 mb-12 leading-relaxed">
                 4 years of proven ability to drive product strategy, passionate about product craft, 
                 and serving as an execution power-house.
-              </p>
+              </p> */}
               <div className="flex flex-col sm:flex-row gap-6">
                 <Link href="/schedule">
                   <button className="group gradient-primary text-white px-8 py-4 rounded-2xl font-semibold hover:shadow-2xl transition-all duration-300 flex items-center justify-center transform hover:scale-105">
@@ -50,7 +54,7 @@ export default function Landing() {
                   alt="Calvin Lu - Product Manager"
                   className="rounded-3xl shadow-2xl w-full max-w-md mx-auto transform hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute -bottom-8 -right-8 glass-effect p-6 rounded-2xl shadow-xl">
+                {/* <div className="absolute -bottom-8 -right-8 glass-effect p-6 rounded-2xl shadow-xl">
                   <div className="flex items-center space-x-3">
                     <div className="gradient-primary p-3 rounded-xl">
                       <GraduationCap className="h-6 w-6 text-white" />
@@ -60,8 +64,8 @@ export default function Landing() {
                       <div className="text-xs text-gray-500">CS & Mathematics</div>
                     </div>
                   </div>
-                </div>
-                <div className="absolute -top-8 -left-8 glass-effect p-6 rounded-2xl shadow-xl">
+                </div> */}
+                {/* <div className="absolute -top-8 -left-8 glass-effect p-6 rounded-2xl shadow-xl">
                   <div className="flex items-center space-x-3">
                     <div className="bg-gradient-to-r from-green-500 to-teal-500 p-3 rounded-xl">
                       <Mail className="h-6 w-6 text-white" />
@@ -71,7 +75,7 @@ export default function Landing() {
                       <div className="text-xs text-gray-500">NYC-based</div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -79,7 +83,7 @@ export default function Landing() {
       </section>
 
       {/* Key Achievements Section */}
-      <section className="py-32 bg-white">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Proven Impact</h2>
@@ -118,7 +122,7 @@ export default function Landing() {
       </section>
 
       {/* Tools & Technologies Section */}
-      <section className="py-32 bg-gradient-to-br from-gray-50 to-purple-50">
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-purple-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Technical Arsenal</h2>
@@ -166,13 +170,12 @@ export default function Landing() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-32 gradient-primary relative overflow-hidden">
+      <section className="py-20 gradient-primary relative overflow-hidden">
         <div className="absolute inset-0 bg-black/10"></div>
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">Ready to build something amazing?</h2>
           <p className="text-xl text-white/90 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Let's discuss how my triple-threat background in data science, engineering, and design 
-            can drive your next product forward.
+            Let's discuss how I fit into your product team.
           </p>
           <Link href="/schedule">
             <button className="group bg-white text-purple-600 px-10 py-5 rounded-2xl font-bold hover:bg-gray-50 transition-all duration-300 shadow-2xl flex items-center justify-center mx-auto text-lg transform hover:scale-105">

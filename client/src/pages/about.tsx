@@ -9,10 +9,10 @@ export default function About() {
         <div className="absolute inset-0 bg-gradient-to-br from-white/90 via-white/95 to-white/90"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-purple-100 text-purple-700 font-medium text-sm mb-8">
+            {/* <div className="inline-flex items-center px-4 py-2 rounded-full bg-purple-100 text-purple-700 font-medium text-sm mb-8">
               <Brain className="h-4 w-4 mr-2" />
               Product Manager & Data Scientist
-            </div>
+            </div> */}
             <h1 className="text-5xl md:text-7xl font-bold mb-8">
               About <span className="gradient-text">Calvin</span>
             </h1>
@@ -335,8 +335,7 @@ export default function About() {
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">Let's build something amazing together</h2>
           <p className="text-xl text-white/90 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Ready to leverage my triple-threat background in data science, engineering, and design 
-            for your next product challenge?
+            Let's discuss how I fit into your product team.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Link href="/schedule">

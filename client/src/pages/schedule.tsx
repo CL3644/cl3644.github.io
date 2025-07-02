@@ -17,24 +17,24 @@ export default function Schedule() {
   return (
     <div className="min-h-screen">
       {/* Schedule Hero Section */}
-      <section className="relative py-32 hero-pattern">
+      <section className="relative py-12 hero-pattern">
         <div className="absolute inset-0 bg-gradient-to-br from-white/90 via-white/95 to-white/90"></div>
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center px-4 py-2 rounded-full bg-purple-100 text-purple-700 font-medium text-sm mb-8">
+          {/* <div className="inline-flex items-center px-4 py-2 rounded-full bg-purple-100 text-purple-700 font-medium text-sm mb-8">
             <Calendar className="h-4 w-4 mr-2" />
             Let's Connect
-          </div>
+          </div> */}
           <h1 className="text-5xl md:text-7xl font-bold mb-8">
-            Get in <span className="gradient-text">Touch</span>
+            Let's<span className="gradient-text"> Connect</span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+          {/* <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
             Ready to discuss how my triple-threat background in data science, engineering, and design 
             can help drive your next product forward?
-          </p>
-          <div className="flex flex-wrap justify-center gap-8 mb-16">
+          </p> */}
+          {/* <div className="flex flex-wrap justify-center gap-8 mb-16">
             <div className="flex items-center text-gray-600 bg-white/70 backdrop-blur-sm px-6 py-3 rounded-full border border-gray-200">
               <Clock className="h-5 w-5 text-purple-600 mr-3" />
-              <span className="font-medium">30-minute consultation</span>
+              <span className="font-medium">30-minute conversation</span>
             </div>
             <div className="flex items-center text-gray-600 bg-white/70 backdrop-blur-sm px-6 py-3 rounded-full border border-gray-200">
               <Video className="h-5 w-5 text-purple-600 mr-3" />
@@ -44,12 +44,12 @@ export default function Schedule() {
               <Calendar className="h-5 w-5 text-purple-600 mr-3" />
               <span className="font-medium">Flexible scheduling</span>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
       {/* Calendly Widget Section */}
-      <section className="py-32 bg-white">
+      <section className="py-0 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="floating-card bg-white rounded-3xl shadow-2xl p-8 border border-gray-100">
             {/* Calendly Embed */}
@@ -63,11 +63,10 @@ export default function Schedule() {
       </section>
 
       {/* What to Expect Section */}
-      <section className="py-32 bg-gradient-to-br from-gray-50 to-purple-50">
+      {/* <section className="py-32 bg-gradient-to-br from-gray-50 to-purple-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-20 text-center">What to Expect</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Expectation 1 */}
             <div className="floating-card text-center p-12 bg-white rounded-3xl shadow-lg border border-gray-100">
               <div className="gradient-primary text-white w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-8">
                 <MessageSquare className="h-10 w-10" />
@@ -76,7 +75,6 @@ export default function Schedule() {
               <p className="text-gray-600 leading-relaxed">We'll discuss your product challenges, goals, and how my triple-threat background can accelerate your roadmap</p>
             </div>
 
-            {/* Expectation 2 */}
             <div className="floating-card text-center p-12 bg-white rounded-3xl shadow-lg border border-gray-100">
               <div className="bg-gradient-to-r from-green-600 to-emerald-600 text-white w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-8">
                 <Lightbulb className="h-10 w-10" />
@@ -85,7 +83,6 @@ export default function Schedule() {
               <p className="text-gray-600 leading-relaxed">Get actionable recommendations based on my experience with AI/ML, data science, and scaling products</p>
             </div>
 
-            {/* Expectation 3 */}
             <div className="floating-card text-center p-12 bg-white rounded-3xl shadow-lg border border-gray-100">
               <div className="bg-gradient-to-r from-orange-600 to-red-600 text-white w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-8">
                 <Handshake className="h-10 w-10" />
@@ -95,12 +92,12 @@ export default function Schedule() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Info Section */}
       <section className="py-32 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-16">Alternative Contact Methods</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-16">Prefer to start with a message?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="floating-card p-10 bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl border border-purple-100">
               <div className="gradient-primary p-4 rounded-2xl w-fit mx-auto mb-6">
@@ -132,7 +129,7 @@ export default function Schedule() {
           </div>
           
           {/* Call to Action */}
-          <div className="mt-20 p-12 gradient-primary rounded-3xl text-center">
+          {/* <div className="mt-20 p-12 gradient-primary rounded-3xl text-center">
             <h3 className="text-3xl font-bold text-white mb-6">Prefer to start with a quick email?</h3>
             <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
               Send me a message with your project details and I'll respond within 24 hours with next steps.
@@ -141,7 +138,7 @@ export default function Schedule() {
               <Mail className="h-5 w-5 mr-2" />
               Send Quick Email
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
