@@ -10,25 +10,24 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="bg-white border-b border-neutral-200 sticky top-0 z-50">
+    <nav className="bg-background sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="flex justify-between items-center h-16">
-          <div className="flex items-center">
-            <Link href="/" className="text-xl font-medium text-neutral-800 hover:text-neutral-600 transition-colors">
+        <div className="flex justify-center items-center h-16">
+          <div className="flex items-center space-x-8">
+            <Link href="/" className="text-lg font-medium text-foreground hover:text-neutral-300 transition-colors">
               Calvin Lu
             </Link>
-          </div>
-          <div className="hidden md:flex space-x-8">
-            {navItems.map((item) => {
+            <div className="w-px h-6 bg-neutral-700"></div>
+            {navItems.slice(1).map((item) => {
               const isActive = location === item.path;
               return (
                 <Link
                   key={item.key}
                   href={item.path}
-                  className={`text-sm font-medium transition-colors ${
+                  className={`text-sm font-medium transition-colors px-3 py-1 rounded ${
                     isActive
-                      ? "text-neutral-800 border-b-2 border-neutral-800 pb-4"
-                      : "text-neutral-600 hover:text-neutral-800"
+                      ? "nav-active"
+                      : "text-neutral-400 hover:text-neutral-200"
                   }`}
                 >
                   {item.label}

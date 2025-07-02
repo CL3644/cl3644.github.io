@@ -14,15 +14,15 @@ export default function Schedule() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       {/* Header */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-6xl mb-8 text-neutral-800">
+          <h1 className="text-4xl md:text-6xl mb-8 text-foreground">
             Schedule a Conversation
           </h1>
-          <p className="text-xl text-neutral-600 mb-12 max-w-2xl mx-auto">
-            Choose a time that works for you. We can discuss your product needs, 
+          <p className="text-xl text-neutral-300 mb-12 max-w-2xl mx-auto">
+            Choose a time that works for you. We can discuss your <span className="text-accent">product needs</span>, 
             my experience, and how I might fit into your team.
           </p>
         </div>
@@ -40,17 +40,17 @@ export default function Schedule() {
       </section>
 
       {/* Alternative Contact */}
-      <section className="py-16 bg-neutral-100">
+      <section className="py-16 bg-neutral-800">
         <div className="max-w-2xl mx-auto px-6 text-center">
-          <h2 className="text-2xl mb-8 text-neutral-700">Prefer Email?</h2>
-          <p className="text-neutral-600 mb-6">
+          <h2 className="text-2xl mb-8 text-foreground">Prefer Email?</h2>
+          <p className="text-neutral-300 mb-6">
             Feel free to reach out directly and I'll respond within 24 hours.
           </p>
           <div className="space-y-2">
             <p>
               <a 
                 href="mailto:Calvin.Lu@Columbia.edu?subject=Product Management Collaboration" 
-                className="text-neutral-700 hover:text-neutral-900 transition-colors"
+                className="text-neutral-300 hover:text-accent transition-colors"
               >
                 Calvin.Lu@Columbia.edu
               </a>
@@ -58,7 +58,7 @@ export default function Schedule() {
             <p>
               <a 
                 href="tel:+17328325357" 
-                className="text-neutral-700 hover:text-neutral-900 transition-colors"
+                className="text-neutral-300 hover:text-accent transition-colors"
               >
                 +1 (732) 832-5357
               </a>

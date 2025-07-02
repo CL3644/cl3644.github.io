@@ -99,6 +99,13 @@ This is a full-stack portfolio application for Calvin Lu, an AI-empowered Produc
   - Updated landing page to single hero section with minimal contact info
   - Simplified About page to clean experience timeline
   - Reduced Schedule page to essential scheduling functionality
+- January 02, 2025. Dark mode implementation
+  - Implemented full dark mode design with dark backgrounds and light text
+  - Added neutral blue accent color for emphasis while maintaining readability
+  - Extended landing page with 3-paragraph bio section
+  - Restored Education and Core Competencies sections from previous versions
+  - Centered navigation header and removed underlines, using background highlights instead
+  - Removed footer and header shadows/borders for cleaner appearance
 
 ## User Preferences
 
