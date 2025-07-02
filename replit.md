@@ -1,8 +1,8 @@
-# Alex Chen Portfolio Application
+# Calvin Lu Portfolio Application
 
 ## Overview
 
-This is a full-stack portfolio application for Alex Chen, a Product Manager, built with a modern React frontend and Express backend. The application showcases Alex's professional experience, skills, and provides scheduling functionality for consultations. It's designed as a professional portfolio with AI-forward product management expertise.
+This is a full-stack portfolio application for Calvin Lu, an AI-empowered Product Manager with a triple-threat background in Data Science, Engineering, and Design. Built with a modern React frontend and Express backend, the application showcases Calvin's professional experience, skills, and provides scheduling functionality for consultations. Features a sophisticated designer-inspired visual design with modern gradients, floating animations, and glass effects.
 
 ## System Architecture
 
@@ -84,7 +84,15 @@ This is a full-stack portfolio application for Alex Chen, a Product Manager, bui
 
 ## Changelog
 - July 02, 2025. Initial setup
+- January 01, 2025. Major redesign with Calvin Lu's resume information
+  - Updated with actual resume data from Columbia University graduate
+  - Implemented designer-inspired visual design with purple/gradient color scheme
+  - Added sophisticated animations (floating cards, gradient text, glass effects)
+  - Updated contact information and professional experience
+  - Enhanced typography and spacing for modern portfolio aesthetic
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Design preference: Sophisticated, designer/animator-inspired portfolio design
+Content: Real resume information for Calvin Lu (Columbia CS/Math graduate, 4 YOE PM)
