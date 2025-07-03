@@ -15,7 +15,7 @@ export default function Navigation() {
         <div className="flex justify-center items-center h-16">
           <div className="flex items-center space-x-8">
             <Link href="/" className="text-lg font-medium text-foreground hover:text-neutral-300 transition-colors">
-              Calvin Lu
+              Home
             </Link>
             <div className="w-px h-6 bg-neutral-700"></div>
             {navItems.slice(1).map((item) => {
@@ -24,7 +24,7 @@ export default function Navigation() {
                 <Link
                   key={item.key}
                   href={item.path}
-                  className={`text-sm font-medium transition-colors px-3 py-1 rounded ${
+                  className={`text-lg font-medium transition-colors px-3 py-1 rounded ${
                     isActive
                       ? "nav-active"
                       : "text-neutral-400 hover:text-neutral-200"
