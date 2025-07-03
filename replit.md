@@ -106,6 +106,11 @@ This is a full-stack portfolio application for Calvin Lu, an AI-empowered Produc
   - Restored Education and Core Competencies sections from previous versions
   - Centered navigation header and removed underlines, using background highlights instead
   - Removed footer and header shadows/borders for cleaner appearance
+- January 03, 2025. Green accent and layout improvements
+  - Changed accent color from blue to green for better visual emphasis
+  - Completely removed footer "Get in Touch" section from landing page
+  - Restructured Education and Core Competencies sections to match Experience section styling
+  - Updated all sections to use consistent card layout and typography
 
 ## User Preferences
 

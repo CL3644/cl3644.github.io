@@ -79,76 +79,75 @@ export default function About() {
       </section>
 
       {/* Education Section */}
-      <section className="py-16 bg-neutral-800">
+      <section className="py-16">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-medium text-foreground mb-12 text-center">Education</h2>
-          <div className="simple-card p-8 max-w-2xl mx-auto">
-            <div className="text-center">
-              <h3 className="text-xl font-medium text-foreground mb-2">Columbia University</h3>
-              <p className="text-accent mb-4">Bachelor of Arts in Computer Science & Mathematics</p>
-              <p className="text-neutral-400">Graduated with expertise in algorithms, data structures, statistical modeling, and mathematical analysis</p>
+          <div className="simple-card p-8">
+            <div className="mb-4">
+              <h3 className="text-xl font-medium text-foreground mb-1">Bachelor of Arts in Computer Science & Mathematics</h3>
+              <p className="text-accent mb-1">Columbia University</p>
+              <p className="text-sm text-neutral-400">Graduated 2021</p>
             </div>
+            <ul className="space-y-3 text-neutral-300">
+              <li>Specialized in algorithms, data structures, and computational theory</li>
+              <li>Advanced coursework in statistical modeling and mathematical analysis</li>
+              <li>Completed capstone projects in machine learning and software engineering</li>
+            </ul>
           </div>
         </div>
       </section>
 
       {/* Core Competencies Section */}
       <section className="py-16">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-medium text-foreground mb-12 text-center">Core Competencies</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="space-y-12">
             
             {/* Product Management */}
-            <div className="simple-card p-8 text-center">
-              <h3 className="text-xl font-medium text-foreground mb-6">Product Management</h3>
-              <div className="space-y-3 text-neutral-300">
-                <p>Product Strategy</p>
-                <p>User Research</p>
-                <p>A/B Testing</p>
-                <p>Analytics & Metrics</p>
-                <p>Roadmapping</p>
-                <p>Cross-functional Leadership</p>
+            <div className="simple-card p-8">
+              <div className="mb-4">
+                <h3 className="text-xl font-medium text-foreground mb-1">Product Management</h3>
+                <p className="text-accent mb-1">Strategy & Execution</p>
+                <p className="text-sm text-neutral-400">Cross-functional Leadership</p>
               </div>
+              <ul className="space-y-3 text-neutral-300">
+                <li>Product strategy and roadmapping across multiple product lines</li>
+                <li>User research and <span className="text-accent">A/B testing</span> for data-driven decision making</li>
+                <li>Analytics and metrics design for measuring product success</li>
+                <li>Cross-functional team leadership and stakeholder management</li>
+              </ul>
             </div>
 
             {/* Data Science & AI */}
-            <div className="simple-card p-8 text-center">
-              <h3 className="text-xl font-medium text-foreground mb-6">Data Science & AI</h3>
-              <div className="space-y-3 text-neutral-300">
-                <p><span className="text-accent">Machine Learning</span></p>
-                <p>Deep Learning</p>
-                <p>Natural Language Processing</p>
-                <p><span className="text-accent">Python</span></p>
-                <p><span className="text-accent">SQL</span></p>
-                <p>Statistical Analysis</p>
+            <div className="simple-card p-8">
+              <div className="mb-4">
+                <h3 className="text-xl font-medium text-foreground mb-1">Data Science & AI</h3>
+                <p className="text-accent mb-1">Machine Learning & Analytics</p>
+                <p className="text-sm text-neutral-400">Python, SQL, Statistical Modeling</p>
               </div>
+              <ul className="space-y-3 text-neutral-300">
+                <li><span className="text-accent">Machine learning</span> model development and deployment</li>
+                <li>Deep learning and natural language processing applications</li>
+                <li>Statistical analysis and predictive modeling</li>
+                <li>Data pipeline architecture and ETL processes</li>
+              </ul>
             </div>
 
             {/* Engineering & Design */}
-            <div className="simple-card p-8 text-center">
-              <h3 className="text-xl font-medium text-foreground mb-6">Engineering & Design</h3>
-              <div className="space-y-3 text-neutral-300">
-                <p>Ruby on Rails</p>
-                <p>Java</p>
-                <p>C/C++</p>
-                <p><span className="text-accent">Figma</span></p>
-                <p>Google Cloud Platform</p>
-                <p>System Architecture</p>
+            <div className="simple-card p-8">
+              <div className="mb-4">
+                <h3 className="text-xl font-medium text-foreground mb-1">Engineering & Design</h3>
+                <p className="text-accent mb-1">Full-Stack Development</p>
+                <p className="text-sm text-neutral-400">Ruby, Java, C++, Figma</p>
               </div>
+              <ul className="space-y-3 text-neutral-300">
+                <li>Full-stack web development with Ruby on Rails and modern frameworks</li>
+                <li><span className="text-accent">System architecture</span> and scalable application design</li>
+                <li>User experience design and prototyping with Figma</li>
+                <li>Cloud infrastructure and deployment on Google Cloud Platform</li>
+              </ul>
             </div>
 
-          </div>
-
-          {/* Tools */}
-          <div className="mt-16">
-            <h3 className="text-xl font-medium text-foreground mb-8 text-center">Professional Tools</h3>
-            <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-              {['Jira', 'Intercom', 'Mixpanel', 'Tableau', 'Confluence', 'UserTesting', 'Fullstory', 'Github', 'Scribe', 'Survicate', 'Superset', 'Excel'].map((tool) => (
-                <span key={tool} className="px-4 py-2 bg-neutral-800 text-neutral-300 rounded text-sm">
-                  {tool}
-                </span>
-              ))}
-            </div>
           </div>
         </div>
       </section>

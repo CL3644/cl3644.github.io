@@ -57,24 +57,7 @@ export default function Landing() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section className="py-20 bg-neutral-800">
-        <div className="max-w-2xl mx-auto px-6 text-center">
-          <h2 className="text-2xl mb-8 text-neutral-200">Get in Touch</h2>
-          <div className="space-y-4">
-            <p className="text-neutral-300">
-              <a href="mailto:Calvin.Lu@Columbia.edu" className="hover:text-accent transition-colors">
-                Calvin.Lu@Columbia.edu
-              </a>
-            </p>
-            <p className="text-neutral-300">
-              <a href="tel:+17328325357" className="hover:text-accent transition-colors">
-                +1 (732) 832-5357
-              </a>
-            </p>
-          </div>
-        </div>
-      </section>
+
     </div>
   );
 }
