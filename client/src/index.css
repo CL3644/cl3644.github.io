@@ -37,7 +37,7 @@
   --neutral-900: hsl(0, 0%, 9%);
   
   /* Accent color for emphasis */
-  --accent-green: hsl(142, 71%, 45%);
+  --accent-green: hsl(75 66.5% 44%);
 }
 
 .dark {
