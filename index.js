@@ -23,7 +23,7 @@ var vite_config_default = defineConfig({
     host: "localhost",
     port: 5173
   },
-  base: "/cl3644.github.io/",
+  base: "./",
   plugins: [react()],
   resolve: {
     alias: {
